@@ -1,0 +1,18 @@
+{
+  "license":"MIT",
+  "author": "srinivasan_swaminathan",
+  "name": "ollama-llava-model",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "ollama": "^0.5.9"
+  }
+}
